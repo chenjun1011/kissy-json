@@ -99,7 +99,69 @@
         "slug":"core",
         "entries":[],
         "subcats":[{
-
+            "name":"ajax",
+            "slug":"ajax",
+            "entries":[{
+                "name":"setupConfig",
+                "slug":"setupConfig",
+                "desc":"为所有的 ajax 请求设定默认配置"
+            },{
+                "name":"get",
+                "slug":"get",
+                "desc":"发送 http get 请求"
+            },{
+                "name":"post",
+                "slug":"post",
+                "desc":"发送 http post 请求"
+            },{
+                "name":"getJSON",
+                "slug":"getJSON",
+                "decs":"发送 http get 请求，无视请求响应的 Content-type，将返回信息解析为 json 作为第一个参数调用 callback 回调."
+            },{
+                "name":"jsonp",
+                "slug":"jsonp",
+                "desc":"发送 jsonp 请求"
+            },{
+                "name":"upload",
+                "slug":"upload",
+                "desc":""
+            },{
+                "name":"serialize",
+                "slug":"serialize",
+                "desc":"序列化一系列表单元素为可提交的字符串"
+            }]
+        },{
+            "name":"anim",
+            "slug":"anim",
+            "entries":[]
+        },{
+            "name":"base",
+            "slug":"base",
+            "entries":[]
+        },{
+            "name":"cookie",
+            "slug":"cookie",
+            "entries":[]
+        },{
+            "name":"dom",
+            "slug":"dom",
+            "entries":[]
+        },{
+            "name":"event",
+            "slug":"event",
+            "entries":[]
+        },{
+            "name":"json",
+            "slug":"json",
+            "entries":[]
+        },{
+            "name":"node",
+            "slug":"node",
+            "entries":[]
+        },{
+            "name":"ua",
+            "slug":"ua",
+            "entries":[]
         }]
     }
 ]
