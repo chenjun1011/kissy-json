@@ -1,167 +1,141 @@
 [
     {
-        "name":"Seed",
-        "slug":"seed",
-        "entries":[],
-        "subcats":[{
-            "name":"loader",
-            "slug":"loader",
-            "entries":[{
-                "name":"add",
-                "desc":"添加模块",
-                "slug":"add"
-            },{
-                "name":"config",
-                "desc":"设置或获取 KISSY 配置参数",
-                "slug":"config"
-            },{
-                "name":"getScript",
-                "desc":"动态加载目标地址的资源文件",
-                "slug":"getScript"
-            },{
-                "name":"use",
-                "slug":"use"
-            }]
+        "name":"loader",
+        "entries":[{
+            "name":"add",
+            "desc":"添加模块"
         },{
-            "name":"lang",
-            "slug":"lang",
-            "subcats":[{
-                "name":"Array",
-                "slug":"array",
-                "entries":[{
-                    "name":"each",
-                    "slug":"each"
-                },{
-                    "name":"indexOf",
-                    "slug":"indexOf"
-                },{
-                    "name":"lastIndexOf",
-                    "slug":"lastIndexOf"
-                },{
-                    "name":"unique",
-                    "slug":"unique"
-                },{
-                    "name":"inArray",
-                    "slug":"inArray"
-                },{
-                    "name":"filter",
-                    "slug":"filter"
-                },{
-                    "name":"map",
-                    "slug":"map"
-                },{
-                    "name":"reduce",
-                    "slug":"reduce"
-                },{
-                    "name":"every",
-                    "slug":"every"
-                },{
-                    "name":"some",
-                    "slug":"some"
-                },{
-                    "name":"makeArray",
-                    "slug":"makeArray"
-                }]
-            },{
-                "name":"escape",
-                "slug":"escape",
-                "entries":[{
-                    "name":"urlEncode",
-                    "slug":"urlEncode"
-                },{
-                    "name":"urlDecode",
-                    "slug":"urlDecode"
-                },{
-                    "name":"fromUnicode",
-                    "slug":"fromUnicode"
-                },{
-                    "name":"escapeHTML",
-                    "slug":"escapeHTML"
-                },{
-                    "name":"escapeRegExp",
-                    "slug":"escapeRegExp"
-                },{
-                    "name":"unEscapeHTML",
-                    "slug":"unEscapeHTML"
-                },{
-                    "name":"param",
-                    "slug":"param"
-                },{
-                    "name":"unparam",
-                    "slug":"unparam"
-                }]
-            }]
-
+            "name":"config",
+            "desc":"设置或获取 KISSY 配置参数"
+        },{
+            "name":"getScript",
+            "desc":"动态加载目标地址的资源文件"
+        },{
+            "name":"use"
         }]
     },
     {
-        "name":"Core",
-        "slug":"core",
-        "entries":[],
-        "subcats":[{
-            "name":"ajax",
-            "slug":"ajax",
-            "entries":[{
-                "name":"setupConfig",
-                "slug":"setupConfig",
-                "desc":"为所有的 ajax 请求设定默认配置"
-            },{
-                "name":"get",
-                "slug":"get",
-                "desc":"发送 http get 请求"
-            },{
-                "name":"post",
-                "slug":"post",
-                "desc":"发送 http post 请求"
-            },{
-                "name":"getJSON",
-                "slug":"getJSON",
-                "decs":"发送 http get 请求，无视请求响应的 Content-type，将返回信息解析为 json 作为第一个参数调用 callback 回调."
-            },{
-                "name":"jsonp",
-                "slug":"jsonp",
-                "desc":"发送 jsonp 请求"
-            },{
-                "name":"upload",
-                "slug":"upload",
-                "desc":""
-            },{
-                "name":"serialize",
-                "slug":"serialize",
-                "desc":"序列化一系列表单元素为可提交的字符串"
-            }]
+        "name":"array",
+        "entries":[{
+            "name":"each"
         },{
-            "name":"anim",
-            "slug":"anim",
-            "entries":[]
+            "name":"indexOf"
         },{
-            "name":"base",
-            "slug":"base",
-            "entries":[]
+            "name":"lastIndexOf"
         },{
-            "name":"cookie",
-            "slug":"cookie",
-            "entries":[]
+            "name":"unique"
         },{
-            "name":"dom",
-            "slug":"dom",
-            "entries":[]
+            "name":"inArray"
         },{
-            "name":"event",
-            "slug":"event",
-            "entries":[]
+            "name":"filter"
         },{
-            "name":"json",
-            "slug":"json",
-            "entries":[]
+            "name":"map"
         },{
-            "name":"node",
-            "slug":"node",
-            "entries":[]
+            "name":"reduce"
         },{
-            "name":"ua",
-            "slug":"ua",
-            "entries":[]
+            "name":"every"
+        },{
+            "name":"some"
+        },{
+            "name":"makeArray"
         }]
+    },
+    {
+        "name":"escape",
+        "entries":[{
+            "name":"urlEncode"
+        },{
+            "name":"urlDecode"
+        },{
+            "name":"fromUnicode"
+        },{
+            "name":"escapeHTML"
+        },{
+            "name":"escapeRegExp"
+        },{
+            "name":"unEscapeHTML"
+        },{
+            "name":"param"
+        },{
+            "name":"unparam"
+        }]
+    },
+    {
+        "name":"function",
+        "entries":[]
+    },
+    {
+        "name":"lang",
+        "entries":[]
+    },
+    {
+        "name":"object",
+        "entries":[]
+    },
+    {
+        "name":"string",
+        "entries":[]
+    },
+    {
+        "name":"type",
+        "entries":[]
+    },
+    {
+        "name":"ajax",
+        "entries":[{
+            "name":"setupConfig",
+            "desc":"为所有的 ajax 请求设定默认配置"
+        },{
+            "name":"get",
+            "desc":"发送 http get 请求"
+        },{
+            "name":"post",
+            "desc":"发送 http post 请求"
+        },{
+            "name":"getJSON",
+            "decs":"发送 http get 请求，无视请求响应的 Content-type，将返回信息解析为 json 作为第一个参数调用 callback 回调."
+        },{
+            "name":"jsonp",
+            "desc":"发送 jsonp 请求"
+        },{
+            "name":"upload",
+            "desc":""
+        },{
+            "name":"serialize",
+            "desc":"序列化一系列表单元素为可提交的字符串"
+        }]
+    },
+    {
+        "name":"anim",
+        "entries":[]
+    },
+    {
+        "name":"base",
+        "entries":[]
+    },
+    {
+        "name":"cookie",
+        "entries":[]
+    },
+    {
+        "name":"dom",
+        "entries":[]
+    },
+    {
+        "name":"event",
+        "entries":[]
+    },
+    {
+        "name":"json",
+        "entries":[]
+    },
+    {
+        "name":"node",
+        "entries":[]
+    },
+    {
+        "name":"ua",
+        "entries":[]
     }
+
 ]
