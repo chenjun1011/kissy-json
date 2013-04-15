@@ -430,7 +430,7 @@
         "slug":"http://docs.kissyui.com/docs/html/api/core/base/index.html",
         "subcats":[{
             "name":"属性",
-            "slug":"http://docs.kissyui.com/docs/html/api/core/base/attribute.html"
+            "slug":"http://docs.kissyui.com/docs/html/api/core/base/attribute.html",
             "subcats":[{
                 "name":"方法",
                 "entries":[{
@@ -496,7 +496,7 @@
     },
     {
         "name":"cookie",
-        "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
+        "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html",
         "entries":[{
             "name":"get()",
             "desc":"获取cookie值",
