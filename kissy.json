@@ -73,268 +73,229 @@
                         "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/makeArray.html"
                     }]
                 },
-                    {
-                        "name":"escape",
-                        "entries":[{
-                            "name":"urlEncode()"
-                        },{
-                            "name":"urlDecode()"
-                        },{
-                            "name":"fromUnicode()",
-                            "desc":"将 str 中 unicode 转义的字符替换成真实字符",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/fromUnicode.html"
-                        },{
-                            "name":"escapeHTML()",
-                            "desc":"将字符串经过 html 转义得到适合在页面中显示的内容",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/escapeHTML.html"
-                        },{
-                            "name":"escapeRegExp()",
-                            "desc":""
-                        },{
-                            "name":"unEscapeHTML()",
-                            "desc":"将字符串中的 html 实体字符替换成对应字符",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/unEscapeHTML.html"
-                        },{
-                            "name":"param()",
-                            "desc":"将对象 o 转换为参数字符串",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/param.html"
-                        },{
-                            "name":"unparam()",
-                            "desc":"将参数字符串 str 还原为对象",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/unparam.html"
-                        }]
-                    },
-                    {
-                        "name":"function",
-                        "entries":[{
-                            "name":"noop()",
-                            "desc":""
-                        },{
-                            "name":"bind()",
-                            "desc":"创建一个新函数，该函数可以在固定的上下文以及传递部分固定参数放在用户参数前面给原函数并执行",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/bind.html"
-                        },{
-                            "name":"rbind()",
-                            "desc":""
-                        },{
-                            "name":"later()",
-                            "desc":"延迟执行指定函数 fn",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/later.html"
-                        },{
-                            "name":"throttle()",
-                            "desc":"ms 时间内只执行 fn 一次, 即使这段时间内 fn 被调用多次",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/throttle.html"
-                        },{
-                            "name":"buffer()",
-                            "desc":"将 fn 缓存一段时间后, 再被调用执行",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/buffer.html"
-                        }]
-                    },
-                    {
-                        "name":"object",
-                        "entries":[{
-                            "name":"stamp()",
-                            "desc":""
-                        },{
-                            "name":"keys()",
-                            "desc":"将对象的所有属性名作为数组返回",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/keys.html"
-                        },{
-                            "name":"mix()",
-                            "desc":"将 supplier 对象的成员复制到 receiver 对象上",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/mix.html"
-                        },{
-                            "name":"merge()",
-                            "desc":"将多个对象的成员合并到一个新对象上",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/merge.html"
-                        },{
-                            "name":"augment()",
-                            "desc":"将 s1,s2.... 的 prototype 属性的成员复制到 r.prototype 上",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/augment.html"
-                        },{
-                            "name":"extend()",
-                            "desc":"让函数对象 r 继承函数对象 s",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/extend.html"
-                        },{
-                            "name":"namespace()",
-                            "desc":"根据参数创建命名空间对象",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/namespace.html"
-                        }]
-                    },
-                    {
-                        "name":"string",
-                        "entries":[{
-                            "name":"trim()",
-                            "desc":"去除字符串两端的空白字符",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/trim.html"
-                        },{
-                            "name":"substitute()",
-                            "desc":"将字符串中的占位符替换为对应的键值",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/substitute.html"
-                        },{
-                            "name":"ucfirst()",
-                            "desc":"首字母大写"
-                        },{
-                            "name":"startsWith()",
-                            "desc":"判断 str 是否以 prefix 开头",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/startsWith.html"
-                        },{
-                            "name":"endsWith()",
-                            "desc":"判断 str 是否以 suffix 结尾"
-                        }]
-                    },
-                    {
-                        "name":"type",
-                        "entries":[{
-                            "name":"isBoolean()",
-                            "desc":"判断是否布尔值",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isBoolean.html"
-                        },{
-                            "name":"isNumber()",
-                            "desc":"判断是否有效数值",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isNumber.html"
-                        },{
-                            "name":"isString()",
-                            "desc":"判断是否字符串",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isString.html"
-                        },{
-                            "name":"isFunction()",
-                            "desc":"判断是否函数",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isFunction.html"
-                        },{
-                            "name":"isArray()",
-                            "desc":"判断是否数组",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isArray.html"
-                        },{
-                            "name":"isDate()",
-                            "desc":"判断是否日期",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isDate.html"
-                        },{
-                            "name":"isRegExp()",
-                            "desc":"判断是否正则表达式",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isRegExp.html"
-                        },{
-                            "name":"isObject()",
-                            "desc":"判断是否为对象",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isObject.html"
-                        },{
-                            "name":"isNull()",
-                            "desc":"判断是否 null",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isNull.html"
-                        },{
-                            "name":"isUndefined()",
-                            "desc":"判断是否 undefined",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isUndefined.html"
-                        },{
-                            "name":"isEmptyObject()",
-                            "desc":"判断是否空对象(没有任何可遍历的属性)",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isEmptyObject.html"
-                        },{
-                            "name":"isPlainObject()",
-                            "desc":"判断是否是普通对象",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isPlainObject.html"
-                        },{
-                            "name":"type()",
-                            "desc":""
-                        }]
+                {
+                    "name":"escape",
+                    "entries":[{
+                        "name":"urlEncode()"
                     },{
-                        "name":"lang",
-                        "entries":[{
-                            "name":"equals()",
-                            "desc":""
-                        },{
-                            "name":"clone()",
-                            "desc":"创建一个 普通对象 或数组的深拷贝, 并且返回",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/clone.html"
-                        },{
-                            "name":"now()",
-                            "desc":"返回 new Date().getTime()",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/now.html"
-                        },{
-                            "name":"isWindow()",
-                            "desc":"判断参数是否为浏览器 window",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isWindow.html"
-                        },{
-                            "name":"parseXML()",
-                            "desc":"将字符串转化为 xml 文档",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/parseXML.html"
-                        },{
-                            "name":"globalEval()",
-                            "desc":"在全局作用域下执行代码字符串, 避免 eval 的作用域链",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/globalEval.html"
-                        },{
-                            "name":"ready()",
-                            "desc":"DOM 加载完毕时执行",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/ready.html"
-                        },{
-                            "name":"available()",
-                            "desc":"当需要比 KISSY.ready() 反应更快的探测到某个元素可用时使用",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/available.html"
-                        },{
-                            "name":"log()",
-                            "desc":"输出调试信息",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/log.html"
-                        },{
-                            "name":"error()",
-                            "desc":"抛出错误异常",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/error.html"
-                        },{
-                            "name":"guid()",
-                            "desc":"返回全局唯一 id",
-                            "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/guid.html"
-                        }]
+                        "name":"urlDecode()"
+                    },{
+                        "name":"fromUnicode()",
+                        "desc":"将 str 中 unicode 转义的字符替换成真实字符",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/fromUnicode.html"
+                    },{
+                        "name":"escapeHTML()",
+                        "desc":"将字符串经过 html 转义得到适合在页面中显示的内容",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/escapeHTML.html"
+                    },{
+                        "name":"escapeRegExp()",
+                        "desc":""
+                    },{
+                        "name":"unEscapeHTML()",
+                        "desc":"将字符串中的 html 实体字符替换成对应字符",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/unEscapeHTML.html"
+                    },{
+                        "name":"param()",
+                        "desc":"将对象 o 转换为参数字符串",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/param.html"
+                    },{
+                        "name":"unparam()",
+                        "desc":"将参数字符串 str 还原为对象",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/unparam.html"
+                    }]
+                },
+                {
+                    "name":"function",
+                    "entries":[{
+                        "name":"noop()",
+                        "desc":""
+                    },{
+                        "name":"bind()",
+                        "desc":"创建一个新函数，该函数可以在固定的上下文以及传递部分固定参数放在用户参数前面给原函数并执行",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/bind.html"
+                    },{
+                        "name":"rbind()",
+                        "desc":""
+                    },{
+                        "name":"later()",
+                        "desc":"延迟执行指定函数 fn",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/later.html"
+                    },{
+                        "name":"throttle()",
+                        "desc":"ms 时间内只执行 fn 一次, 即使这段时间内 fn 被调用多次",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/throttle.html"
+                    },{
+                        "name":"buffer()",
+                        "desc":"将 fn 缓存一段时间后, 再被调用执行",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/buffer.html"
+                    }]
+                },
+                {
+                    "name":"object",
+                    "entries":[{
+                        "name":"stamp()",
+                        "desc":""
+                    },{
+                        "name":"keys()",
+                        "desc":"将对象的所有属性名作为数组返回",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/keys.html"
+                    },{
+                        "name":"mix()",
+                        "desc":"将 supplier 对象的成员复制到 receiver 对象上",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/mix.html"
+                    },{
+                        "name":"merge()",
+                        "desc":"将多个对象的成员合并到一个新对象上",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/merge.html"
+                    },{
+                        "name":"augment()",
+                        "desc":"将 s1,s2.... 的 prototype 属性的成员复制到 r.prototype 上",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/augment.html"
+                    },{
+                        "name":"extend()",
+                        "desc":"让函数对象 r 继承函数对象 s",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/extend.html"
+                    },{
+                        "name":"namespace()",
+                        "desc":"根据参数创建命名空间对象",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/namespace.html"
+                    }]
+                },
+                {
+                    "name":"string",
+                    "entries":[{
+                        "name":"trim()",
+                        "desc":"去除字符串两端的空白字符",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/trim.html"
+                    },{
+                        "name":"substitute()",
+                        "desc":"将字符串中的占位符替换为对应的键值",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/substitute.html"
+                    },{
+                        "name":"ucfirst()",
+                        "desc":"首字母大写"
+                    },{
+                        "name":"startsWith()",
+                        "desc":"判断 str 是否以 prefix 开头",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/startsWith.html"
+                    },{
+                        "name":"endsWith()",
+                        "desc":"判断 str 是否以 suffix 结尾"
+                    }]
+                },
+                {
+                    "name":"type",
+                    "entries":[{
+                        "name":"isBoolean()",
+                        "desc":"判断是否布尔值",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isBoolean.html"
+                    },{
+                        "name":"isNumber()",
+                        "desc":"判断是否有效数值",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isNumber.html"
+                    },{
+                        "name":"isString()",
+                        "desc":"判断是否字符串",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isString.html"
+                    },{
+                        "name":"isFunction()",
+                        "desc":"判断是否函数",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isFunction.html"
+                    },{
+                        "name":"isArray()",
+                        "desc":"判断是否数组",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isArray.html"
+                    },{
+                        "name":"isDate()",
+                        "desc":"判断是否日期",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isDate.html"
+                    },{
+                        "name":"isRegExp()",
+                        "desc":"判断是否正则表达式",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isRegExp.html"
+                    },{
+                        "name":"isObject()",
+                        "desc":"判断是否为对象",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isObject.html"
+                    },{
+                        "name":"isNull()",
+                        "desc":"判断是否 null",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isNull.html"
+                    },{
+                        "name":"isUndefined()",
+                        "desc":"判断是否 undefined",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isUndefined.html"
+                    },{
+                        "name":"isEmptyObject()",
+                        "desc":"判断是否空对象(没有任何可遍历的属性)",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isEmptyObject.html"
+                    },{
+                        "name":"isPlainObject()",
+                        "desc":"判断是否是普通对象",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isPlainObject.html"
+                    },{
+                        "name":"type()",
+                        "desc":""
+                    }]
+                },
+                {
+                    "name":"lang",
+                    "entries":[{
+                        "name":"equals()",
+                        "desc":""
+                    },{
+                        "name":"clone()",
+                        "desc":"创建一个 普通对象 或数组的深拷贝, 并且返回",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/clone.html"
+                    },{
+                        "name":"now()",
+                        "desc":"返回 new Date().getTime()",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/now.html"
+                    },{
+                        "name":"isWindow()",
+                        "desc":"判断参数是否为浏览器 window",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/isWindow.html"
+                    },{
+                        "name":"parseXML()",
+                        "desc":"将字符串转化为 xml 文档",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/parseXML.html"
+                    },{
+                        "name":"globalEval()",
+                        "desc":"在全局作用域下执行代码字符串, 避免 eval 的作用域链",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/globalEval.html"
+                    },{
+                        "name":"ready()",
+                        "desc":"DOM 加载完毕时执行",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/ready.html"
+                    },{
+                        "name":"available()",
+                        "desc":"当需要比 KISSY.ready() 反应更快的探测到某个元素可用时使用",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/available.html"
+                    },{
+                        "name":"log()",
+                        "desc":"输出调试信息",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/log.html"
+                    },{
+                        "name":"error()",
+                        "desc":"抛出错误异常",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/error.html"
+                    },{
+                        "name":"guid()",
+                        "desc":"返回全局唯一 id",
+                        "slug":"http://docs.kissyui.com/docs/html/api/seed/kissy/guid.html"
+                    }]
+                }]
             },
             {
                 "name":"ajax",
                 "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/index.html",
                 "subcats":[{
-                        "name":"类",
-                        "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/#module",
-                        "entries":[{
-                            "name":"IO",
-                            "desc":"",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/#module-io"
-                        }]
-                    },{
-                        "name":"属性",
-                        "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#attributes-detail",
-                        "entries":[{
-                            "name":"readyState",
-                            "decs":"表示请求完成状态",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.readyState"
-                        },{
-                            "name":"status",
-                            "decs":"响应状态码",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.status"
-                        },{
-                            "name":"statusText",
-                            "decs":"响应状态字符串",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.statusText"
-                        },{
-                            "name":"responseText",
-                            "decs":"返回响应对应的 text 和 xml",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.responseText"
-                        }]
-                    },{
-                        "name":"方法",
-                        "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#methods-detail",
-                        "entries":[{
-                            "name":"getResponseHeader",
-                            "decs":"获得对应的响应头值.仅对于 xhr 请求有效.",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.getResponseHeader"
-                        },{
-                            "name":"getNativeXhr",
-                            "decs":"获得内置原生的 io 实例",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.getNativeXhr"
-                        },{
-                            "name":"abort",
-                            "decs":"如果当前请求还没完成（进行中状态）则中断当前的请求，否则什么也不做",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.abort"
-                        },{
-                            "name":"then",
-                            "decs":"监听当前请求的成功和失败，并返回新的 promise 实例",
-                            "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/io.html#io.then"
-                        }]
+                    "name":"类",
+                    "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/#module",
+                    "entries":[{
+                        "name":"IO",
+                        "desc":"",
+                        "slug":"http://docs.kissyui.com/docs/html/api/core/ajax/#module-io"
                     }]
                 },{
                     "name":"方法",
@@ -459,7 +420,7 @@
                 "name":"base",
                 "slug":"http://docs.kissyui.com/docs/html/api/core/base/index.html",
                 "subcats":[{
-                    "name":"属性",
+                    "name":"Attribute",
                     "slug":"http://docs.kissyui.com/docs/html/api/core/base/attribute.html",
                     "subcats":[{
                         "name":"方法",
@@ -511,8 +472,7 @@
                             "desc":"每调用 set() 一次后就触发一次该事件",
                             "slug":"http://docs.kissyui.com/docs/html/api/core/base/attribute.html#Attribute.Events.*Change"
                         }]
-                    }],
-                    "entries":[]
+                    }]
                 },{
                     "name":"Base",
                     "slug":"http://docs.kissyui.com/docs/html/api/core/base/base.html",
@@ -521,28 +481,31 @@
                         "desc":"如果你想让类默认就支持 attribute 功能, 请直接继承 Base",
                         "slug":"http://docs.kissyui.com/docs/html/api/core/base/base.html"
                     }]
-                }],
-                "entries":[]
+                }]
             },
             {
                 "name":"cookie",
                 "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html",
-                "entries":[{
-                    "name":"get()",
-                    "desc":"获取cookie值",
-                    "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
-                },{
-                    "name":"remove()",
-                    "desc":"置空cookie值，并立刻过期",
-                    "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
-                },{
-                    "name":"set()",
-                    "desc":"设置cookie值",
-                    "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
+                "subcats":[{
+                    "name":"方法",
+                    "entries":[{
+                        "name":"get()",
+                        "desc":"获取cookie值",
+                        "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
+                    },{
+                        "name":"remove(设)",
+                        "desc":"置空cookie值，并立刻过期",
+                        "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
+                    },{
+                        "name":"set()",
+                        "desc":"置cookie值",
+                        "slug":"http://docs.kissyui.com/docs/html/api/core/cookie/index.html"
+                    }]
                 }]
             },
             {
                 "name":"dom",
+                "slug":"http://docs.kissyui.com/docs/html/api/core/dom/index.html",
                 "entries":[{
                     "name":"selector",
                     "desc":"选择器",
@@ -832,7 +795,7 @@
             },
             {
                 "name":"event",
-                "entries":[],
+                "slug":"http://docs.kissyui.com/docs/html/api/core/event/index.html",
                 "subcats":[{
                     "name":"Methods",
                     "entries":[{
@@ -962,6 +925,7 @@
             },
             {
                 "name":"json",
+                "slug":"http://docs.kissyui.com/docs/html/api/core/json/index.html",
                 "entries":[{
                     "name":"parse()",
                     "desc":"将字符串解析为json对象，解析器",
@@ -970,12 +934,11 @@
                     "name":"stringify()",
                     "desc":"将json对象或者数组转化为字符串，序列化器",
                     "slug":"http://docs.kissyui.com/docs/html/api/core/json/index.html"
-                }],
-                "subcats":[]
+                }]
             },
             {
                 "name":"node",
-                "entries":[],
+                "slug":"http://docs.kissyui.com/docs/html/api/core/node/index.html",
                 "subcats":[{
                     "name":"静态方法",
                     "entries":[{
@@ -1151,6 +1114,7 @@
             },
             {
                 "name":"ua",
+                "slug":"http://docs.kissyui.com/docs/html/api/core/ua/index.html",
                 "entries":[{
                     "name":"trident",
                     "desc":"trident的版本号",
@@ -1224,6 +1188,7 @@
                     "decs":"android 版本号",
                     "slug":"http://docs.kissyui.com/docs/html/api/core/ua/index.html"
                 }]
+            }]
     },
     {
         "anme":"componets",
